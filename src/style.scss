@@ -1,0 +1,78 @@
+@import "./vars.scss";
+@mixin centerContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text-bold {
+  font-weight: bold !important;
+}
+
+.text-dark {
+  color: $dark !important;
+}
+.text-navy {
+  color: $navy !important;
+}
+.text-gray {
+  color: $gray !important;
+}
+.text-teal {
+  color: $teal !important;
+}
+.text-white {
+  color: $white !important;
+}
+.text-redLight {
+  color: $redLight !important;
+}
+.back-dark {
+  background: $dark !important;
+}
+.back-navy {
+  background: $navy !important;
+}
+.back-gray {
+  background: $gray !important;
+}
+.back-teal {
+  background: $teal !important;
+}
+.back-white {
+  background: $white !important;
+}
+
+.back-redLight {
+  background: $redLight !important;
+}
+.br-0 {
+  border-radius: 0px;
+}
+.br-5 {
+  border-radius: 5px;
+}
+.br-10 {
+  border-radius: 10px;
+}
+.br-15 {
+  border-radius: 15px;
+}
+.br-20 {
+  border-radius: 20px;
+}
+.flex {
+  display: flex;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+.flex-col-center {
+  @extend .flex-center;
+  flex-direction: column;
+}
